@@ -6,9 +6,9 @@ on:
   push:
     branches: [ main ]
     
-  schedule:
+ # schedule:
     # UTC 01:00 和 UTC 04:00
-    - cron: '20 1,4,7,17-23 * * *'
+ #   - cron: '20 1,4,7,17-23 * * *'
   
   # 当star当前仓库时立即执行
   watch:
